@@ -6,7 +6,7 @@ package com.main.arrays;
 public class MissingNumber {
 	
 	
-	public static int findMissingNumber(int[] num)
+	public static void findMissingNumber(int[] num)
 	{
 		int n = num[0];
 		
@@ -15,18 +15,19 @@ public class MissingNumber {
 			if ((n+1) == num[i])
 					n = num[i];
 			else
-				return (n+1);
+			{
+				System.out.println("Missing number is: " + (n+1));
+				return;
+			}
 		}
 		
-		
-		return n;
 	}
 
 	public static void main(String[] args) {
 		
-		int[] arr = {2,3,4,5,6,8};
-		System.out.println("Missing number is: " + findMissingNumber(arr));
-
+		//Missing number is 6 in the array below
+		int[] arr = {2, 3, 4, 5, 7, 8};
+		findMissingNumber(arr);
 	}
 
 }
