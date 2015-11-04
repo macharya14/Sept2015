@@ -10,7 +10,7 @@ package com.main.exceptions;
 public class ExceptionHandler {
 	
 
-	public static void throwMyExceptions(Integer a, Integer b) throws FloodDangerException 
+	public static void throwMyExceptions(Integer a, Integer b) throws FloodDangerException, IllegalArgumentException, ArithmeticException, NullPointerException 
 	{
 		
 		if(a > 40)

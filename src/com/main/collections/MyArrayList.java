@@ -60,9 +60,11 @@ public class MyArrayList {
 	public static void printArrayListInReverese(ArrayList<AnimalFarm> myList)
 	{
 		ListIterator<AnimalFarm> lit =  myList.listIterator();
-		//Get to the end of the list
+		//Traverse to the end of the list
 		while(lit.hasNext())
 			lit.next();
+		
+		//Now print out the list in Reverse 
 		System.out.println("List in reverse:");
 		while(lit.hasPrevious())
 		{
