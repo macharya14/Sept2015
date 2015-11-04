@@ -1,4 +1,4 @@
-package com.main;
+package com.main.loops;
 
 // Write a program that prints a fibonaci series that is a sequence of numbers 
 // like 0 1 1 2 3 5 8.(The succeeding number is the sum of the preceeding two numbers)

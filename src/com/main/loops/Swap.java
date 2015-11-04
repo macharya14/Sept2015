@@ -1,4 +1,4 @@
-package com.main;
+package com.main.loops;
 
 // Write a program that swaps 2 given numbers. 
 // You need to have 2 separate functions in the program.
