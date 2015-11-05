@@ -42,7 +42,10 @@ public class MyArrayList {
 		for(AnimalFarm farm : myList)
 		{
 			if((farm.animal).equals(searchStr))
+			{
 				System.out.println("Farm animal found:" + farm.animal + " Count is: " + farm.count);
+				break;
+			}
 			
 		}
 		
