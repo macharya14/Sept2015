@@ -1,14 +1,13 @@
 package com.main.exceptions;
 
-/**
+/*
 * Write a program containing a function which is expected to throw 
 * any kind of exception say NullPointerException or 
 * ArithmeticException etc and then handle this function in 
 * the parent function which calls this function.
-**/
+*/
 
 public class ExceptionHandler {
-	
 
 	public static void throwMyExceptions(Integer a, Integer b) throws FloodDangerException, IllegalArgumentException, ArithmeticException, NullPointerException 
 	{
@@ -28,7 +27,10 @@ public class ExceptionHandler {
 	}
 	
 	
-	//Handle the exceptions thrown by the function throwMyExceptions() here
+	/*
+	* This function handles the exceptions thrown by the function 
+	* throwMyExceptions() 
+	*/
 	public static void handleMyExceptions(Integer a, Integer b)
 	{
 		try
@@ -51,7 +53,7 @@ public class ExceptionHandler {
 		{
 			System.out.println("FloodDangerException: " + e4.toString());
 		}
-		catch(Exception e)//catch any uncaught exception
+		catch(Exception e)
 		{
 			System.out.println("Exception: " + e.toString());
 		}

@@ -1,7 +1,9 @@
 package com.main.loops;
 
-// program  that accepts input from the command line and 
-// then prints them.
+/*
+* Program  that accepts input from the command line and 
+* then prints them.
+*/
 
 public class CommandLineArgs {
 

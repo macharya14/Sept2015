@@ -1,10 +1,10 @@
 package com.main.arrays;
 
 public class CommonNumber {
-	
-	// Write a program to find the common number 
-	// in any given two arrays.
-	
+	/*
+	* Write a program to find the common number/numbers
+	* in any given two arrays.
+	*/
 	public static void findCommonNumber(int[] arr1, int[] arr2)
 	{
 		
@@ -25,10 +25,8 @@ public class CommonNumber {
 		int[] arr1 = {3, 6, 9, 12, 15, 18, 21};
 		int[] arr2 = {2, 4, 6, 8, 10, 12, 14, 16, 18};
 		
-		
 		findCommonNumber(arr1, arr2);
 		
-
 	}
 
 }

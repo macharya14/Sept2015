@@ -1,9 +1,11 @@
 package com.main.loops;
 
-// Write a program that prints a fibonaci series that is a sequence of numbers 
-// like 0 1 1 2 3 5 8.(The succeeding number is the sum of the preceeding two numbers)
-//You can vary the number of elements to be printed meaning 
-//you can print 10 numbers or 15 or 20 or any desired number.
+/*
+* Write a program that prints a fibonaci series that is a sequence of numbers 
+* like 0 1 1 2 3 5 8.(The succeeding number is the sum of the preceeding two numbers)
+* You can vary the number of elements to be printed meaning 
+* you can print 10 numbers or 15 or 20 or any desired number.
+*/
 
 public class Fibonaci {
 	
@@ -31,8 +33,8 @@ public class Fibonaci {
 
 	public static void main(String[] args) {
 		
-		//Input is number of elements in the sequence to be printed
-		getFibonaci(5);
+		//Input number of elements in the sequence to be printed
+		getFibonaci(8);
 	}
 
 }

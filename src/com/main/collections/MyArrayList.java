@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-// Write a program having different methods to perform below 
-// operations.
-//	--> To create an ArrayList and add elements to it.
-//	--> To search for an element in the list.
-//	--> To print the elements of the list using iterator.
-//	--> To print the elements in the reverse order using ListIterator.
-
+/*
+* Write a program having different methods to perform below 
+* operations.
+*	--> To create an ArrayList and add elements to it.
+*	--> To search for an element in the list.
+*	--> To print the elements of the list using iterator.
+*	--> To print the elements in the reverse order using ListIterator.
+*/
 
 public class MyArrayList {
 	

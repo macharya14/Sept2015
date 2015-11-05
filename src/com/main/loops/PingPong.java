@@ -1,8 +1,10 @@
 package com.main.loops;
 
-// Write a program to print "ping" if a number is divisible by 3,
-// "pong" if a number is divisible by 5, and 
-// "ping pong" if number is divisible by both, else print the number.
+/*
+* Write a program to print "Ping" if a number is divisible by 3,
+* "Pong" if a number is divisible by 5, and 
+* "Ping Pong" if number is divisible by both, else print the number.
+*/
 
 public class PingPong {
 	
@@ -19,7 +21,9 @@ public class PingPong {
 	}
 
 	public static void main(String[] args) {
-		printPingPong(11);
+		
+		//Print 'Ping', 'Pong' or 'Ping Pong' depending on the input
+		printPingPong(150);
 	}
 
 }

@@ -1,7 +1,8 @@
 package com.main.arrays;
 
-// Write a program to find the largest number in a given array.
-
+/*
+* Write a program to find the largest number in a given array.
+*/
 public class LargestNumber {
 	
 	public static int findLargestNumber(int[] num)

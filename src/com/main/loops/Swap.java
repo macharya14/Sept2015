@@ -1,13 +1,16 @@
 package com.main.loops;
 
-// Write a program that swaps 2 given numbers. 
-// You need to have 2 separate functions in the program.
- //--> One Function should swap the numbers without any third 
- // new variable.
-//--> Second function should swap the numbers using a third variable.
+/*
+* Write a program that swaps 2 given numbers. 
+* You need to have 2 separate functions in the program.
+*--> One Function should swap the numbers without any third 
+* new variable.
+*--> Second function should swap the numbers using a third variable.
+*/
 
 public class Swap {
 	
+	//Function to swap numbers without 3rd variable
 	public static void swapWith2(int x, int y)
 	{
 		System.out.println("Before swapping: x = " + x + " y = " + y);
@@ -18,6 +21,8 @@ public class Swap {
 		
 	}
 	
+	
+	//Function to swap numbers with a new 3rd variable
 	public static void swapWith3(int x, int y)
 	{
 		System.out.println("Before swapping: x = " + x + " y = " + y);
@@ -31,7 +36,10 @@ public class Swap {
 
 	public static void main(String[] args) {
 		
+		//Swap with just 2 variables
 		swapWith2(3, 9);
+		
+		//Swap using a new 3rd variable
 		swapWith3(5, 12);
 
 	}

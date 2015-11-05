@@ -1,14 +1,14 @@
 package com.main.loops;
-
-// Write a program  that prints a pattern like below, 
-// where you can vary the number of rows to be printed
-// *
-// **
-// ***
-// ****
-// *****
-// ******
-//
+/*
+* Write a program  that prints a pattern like below, 
+* where you can vary the number of rows to be printed
+* 	*
+* 	**
+* 	***
+* 	****
+* 	*****
+* 	******
+*/
 
 public class PrintPattern {
 	
@@ -26,8 +26,9 @@ public class PrintPattern {
 	}
 
 	public static void main(String[] args) {
-		int n = 8; //number of rows to be printed
-		printPattern(n);
+		
+		// Input the number of rows to be printed
+		printPattern(8);
 
 	}
 

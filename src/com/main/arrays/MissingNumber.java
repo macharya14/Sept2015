@@ -1,7 +1,9 @@
 package com.main.arrays;
 
-// Write a program to find the missing number 
-// in a series of sorted numbers stored in an array.
+/*
+* Write a program to find the missing number 
+* in a series of sorted numbers stored in an array.
+*/
 
 public class MissingNumber {
 	
@@ -25,8 +27,8 @@ public class MissingNumber {
 
 	public static void main(String[] args) {
 		
-		//Missing number is 6 in the array below
 		int[] arr = {2, 3, 4, 5, 7, 8};
+		
 		findMissingNumber(arr);
 	}
 

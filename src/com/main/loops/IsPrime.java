@@ -1,9 +1,12 @@
 package com.main.loops;
 
+/*
+* Write a program to check if a given number is Prime or Not!
+*/
 
 public class IsPrime {
 	
-	//Check if a given number is Prime or not!
+	
 	public static boolean isPrime(long num)
 	{ 	
 		if (num <= 0 )
@@ -19,6 +22,8 @@ public class IsPrime {
 
 
 	public static void main(String[] args) {
+		
+		//Input your number to check if Prime or Not!
 		if(isPrime(121))
 			System.out.println("Prime Number");
 		else
