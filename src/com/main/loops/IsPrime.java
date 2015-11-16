@@ -12,6 +12,8 @@ public class IsPrime {
 		if (num <= 0 )
 				return false;
 		
+		//checking for i < num/2 because mathematically you cannot have a 
+		// number n that is divisible by a number greater than n/2
 		for(int i = 2; i < num/2; i++)
 		{
 			if(num % i == 0)

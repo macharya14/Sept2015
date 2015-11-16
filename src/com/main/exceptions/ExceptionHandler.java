@@ -40,22 +40,27 @@ public class ExceptionHandler {
 		catch(IllegalArgumentException e1)
 		{
 			System.out.println("IllegalArgumentException: "+ e1.toString());
+			e1.printStackTrace();
 		}
 		catch(NullPointerException e2)
 		{
 			System.out.println("NullPointerException: " + e2.toString());
+			e2.printStackTrace();
 		}
 		catch(ArithmeticException e3)
 		{
 			System.out.println("ArithmeticException: "+ e3.toString());
+			e3.printStackTrace();
 		}
 		catch(FloodDangerException e4)
 		{
 			System.out.println("FloodDangerException: " + e4.toString());
+			e4.printStackTrace();
 		}
 		catch(Exception e)
 		{
 			System.out.println("Exception: " + e.toString());
+			e.printStackTrace();
 		}
 		finally
 		{
