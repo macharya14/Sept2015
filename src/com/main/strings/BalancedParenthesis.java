@@ -22,11 +22,7 @@ public class BalancedParenthesis {
 		int j = len - 1;
 		while(i < j)
 		{
-			if(outStr.charAt(i++) == '(' && outStr.charAt(j--) == ')')
-			{
-				isBalanced = true;
-			}
-			else
+			if(outStr.charAt(i++) != '(' || outStr.charAt(j--) != ')')
 			{
 				isBalanced = false;
 				break;
@@ -37,7 +33,7 @@ public class BalancedParenthesis {
 	
 
 	public static void main(String[] args) {
-		String inputStr = "((())(";
+		String inputStr = ")(()))";
 		
 		if(isBalancedParenthesis(inputStr))
 			System.out.println("Parenthesis are balanced");

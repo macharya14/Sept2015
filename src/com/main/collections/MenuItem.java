@@ -5,14 +5,14 @@ package com.main.collections;
 * programming assignments
 */
 
-public class AnimalFarm {
-	String animal;
-	int count;
+public class MenuItem {
+	String item;
+	double price;
 	
-	AnimalFarm(String animal, int count)
+	MenuItem(String item, double price)
 	{
-		this.animal = animal;
-		this.count = count;
+		this.item = item;
+		this.price = price;
 	}
 
 }
