@@ -5,6 +5,8 @@ public class ArraySort {
 	/*
 	 * A Simple bubble sort algorithm
 	 *  but highly inefficient sorting algorithm O(n^2)
+	 *  
+	 *  @author: Manjula Acharya
 	 */
 	
 	public static int[] sortArray(int[] arr)
@@ -15,7 +17,6 @@ public class ArraySort {
 		
 		while(count < len)
 		{
-			
 			for(int i = 1; i < len; i++ )
 			{
 				if (arr[i-1] > arr[i])

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 /*
  * Write a program to copy arraylist to an array.
+ * 
+ * @author: Manjula Acharya
  */
 
 public class ArrayListToArray {

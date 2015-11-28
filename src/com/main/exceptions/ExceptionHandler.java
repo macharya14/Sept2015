@@ -5,6 +5,8 @@ package com.main.exceptions;
 * any kind of exception say NullPointerException or 
 * ArithmeticException etc and then handle this function in 
 * the parent function which calls this function.
+* 
+* @author: Manjula Acharya
 */
 
 public class ExceptionHandler {

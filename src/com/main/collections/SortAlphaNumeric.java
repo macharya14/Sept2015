@@ -13,6 +13,7 @@ import java.util.regex.Pattern;
  * Write a program which takes an input series as a1,a2,a3....an,
  * b1,b2,b3...bn and produces output as a1,b1,a2,b2,a3,b3.......,an,bn.
  * 
+ * @author: Manjula Acharya
  */
 
 public class SortAlphaNumeric implements Comparator<String>{
@@ -41,15 +42,25 @@ public class SortAlphaNumeric implements Comparator<String>{
 			return num;
 		}
 		
+		public static void printList(List<String> inlist)
+		{
+			for(String str: inlist)
+				System.out.print(" " + str);
+		}
+		
 		
 		public static void main(String[] args) {
 			String[] inArr = {"a1", "a2", "a3", "a4", "a5", "b1", "b2", "b3", "b4", "b5"};
 			List<String> inlist = new ArrayList<String>(Arrays.asList(inArr));
+			
+			System.out.println("Before sorting:");
+			printList(inlist);
+			
 			Collections.sort(inlist, new SortAlphaNumeric());
 			
-			System.out.println("After sorting:");
-			for(String str: inlist)
-				System.out.println(str);
+			System.out.println("\n\nAfter sorting:");
+			printList(inlist);
+			
 		}
 
 	}

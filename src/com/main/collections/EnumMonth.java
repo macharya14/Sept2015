@@ -3,6 +3,8 @@ package com.main.collections;
 /*
  * Write a program that defines an enum having months of the year and 
  * then prints the value of all the enum elements.
+ * 
+ * @author: Manjula Acharya
  */
 
 public class EnumMonth {
@@ -19,12 +21,6 @@ public class EnumMonth {
 		}
 	};
 	
-	Month month;
-	
-	EnumMonth(Month month)
-	{
-		this.month = month;
-	}
 	
 	public static void printMonthsOfTheYear()
 	{
@@ -32,7 +28,6 @@ public class EnumMonth {
 	        System.out.println("Month:" + month.value + " " + month);
 	}
 
-	
 
 	public static void main(String[] args) 
 	{

@@ -16,6 +16,8 @@ import java.util.Scanner;
 *	--> DataInputStream: Use this class to input 2 integer numbers and 
 *		multiply them.
 *	--> Console: Use this class to input 2 integer numbers and divide them.
+*
+* @author: Manjula Acharya
 */
 
 

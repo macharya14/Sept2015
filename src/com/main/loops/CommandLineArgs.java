@@ -3,6 +3,8 @@ package com.main.loops;
 /*
 * Program  that accepts input from the command line and 
 * then prints them.
+* 
+* @author: Manjula Acharya
 */
 
 public class CommandLineArgs {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoopsSuite]">
+  <parameter name="myNum" value="5"/>
+  <test name="TestFactorial(failed)">
+    <parameter name="myNum" value="5"/>
+    <classes>
+      <class name="com.loops.test.TestFactorial">
+        <methods>
+          <include name="testFactorialIter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.loops.test.TestFactorial -->
+    </classes>
+  </test> <!-- TestFactorial(failed) -->
+</suite> <!-- Failed suite [LoopsSuite] -->

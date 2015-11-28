@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="LoopsSuite" >
+
+	<test name="TestFactorial" >
+
+		<parameter name="inputNum" value="5" ></parameter>
+		<parameter name="expected" value="120" ></parameter>
+	
+		<classes>
+		<class name="com.test.loops.TestFactorial" ></class>
+			<methods>
+	        	<include name="testFactorialIter" />
+	        	<include name="testFactorialRecurs" />
+			</methods>
+		</classes>
+	</test>
+	
+	
+
+	<test name="TestPrime" >
+
+		<classes>
+		<class name="com.test.loops.TestPrimeNumber" ></class>
+			<methods>
+				 <include name="testforPrime" />
+			</methods>
+		</classes>
+	</test>
+
+</suite>

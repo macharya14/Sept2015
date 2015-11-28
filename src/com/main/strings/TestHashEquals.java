@@ -3,6 +3,8 @@ package com.main.strings;
 
 /*
  * Write a program to implement hashCode() and equals() methods.
+ * 
+ * @author: Manjula Acharya
  */
 
 public class TestHashEquals {

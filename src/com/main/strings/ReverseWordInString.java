@@ -7,6 +7,8 @@ package com.main.strings;
  *  Sentence: "Mary had a little lamb whose fleece was white as snow."
  *  1) "snow as white was fleece whose lamb little a had Mary"
  *  2) "wons sa etihw saw eceelf esohw bmal elttil a dah yraM"
+ *  
+ *  @author: Manjula Acharya
  */
 
 public class ReverseWordInString {

@@ -4,6 +4,8 @@ public class CommonNumber {
 	/*
 	* Write a program to find the common number/numbers
 	* in any given two arrays.
+	* 
+	* @author: Manjula Acharya
 	*/
 	public static void findCommonNumber(int[] arr1, int[] arr2)
 	{

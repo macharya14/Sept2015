@@ -6,6 +6,8 @@ package com.main.loops;
 *--> One Function should swap the numbers without any third 
 * new variable.
 *--> Second function should swap the numbers using a third variable.
+*
+* @author: Manjula Acharya
 */
 
 public class Swap {

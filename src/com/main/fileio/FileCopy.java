@@ -10,6 +10,8 @@ import java.io.OutputStream;
 
 /*
  * Write a program to copy content of a file into another file.
+ * 
+ * @author: Manjula Acharya
  */
 
 

@@ -6,6 +6,8 @@ package com.main.loops;
 * number of digits in the number and add them, the sum  should be 
 * equal to the number itself. For example 153 has 3 digits in it and 
 * if we do 1^3+5^3+3^3=153.
+* 
+* @author: Manjula Acharya
 */
 
 public class Armstrong {

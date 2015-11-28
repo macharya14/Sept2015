@@ -11,6 +11,8 @@ import java.util.regex.Pattern;
 /*
 * Write a program to search for a string in a file and 
 * then return the count of number of occurrences of the string.
+* 
+* @author: Manjula Acharya
 */
 
 public class StringCount {

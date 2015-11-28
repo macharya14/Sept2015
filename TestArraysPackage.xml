@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ArraysSuite">
+
+<test name="TestLargest">
+	<classes>
+	<class name="com.test.arrays.TestLargestNumber"></class>
+		<methods>
+			<include name="testPositiveNumbers" />
+			<include name="testNegativeNumbers" />
+			<include name="testMixedNumbers" />
+			<include name="testDuplicateNumbers" />
+			<include name="testWithZeroes" />
+		</methods>
+	</classes>
+</test>
+
+
+<test name="TestMissing">
+	<classes>
+	<class name="com.test.arrays.TestMissingNumber"></class>
+		<methods>
+			<include name="testPositiveNumbers" />
+			<include name="testNegativeNumbers" />
+		</methods>
+	</classes>
+</test>
+
+</suite>

@@ -4,6 +4,8 @@ package com.main.arrays;
 * Write a program to perform a linear search on any given array.
 * Linear search is the basic search where you look for the element 
 * to be searched in a sequential way.
+* 
+* @author: Manjula Acharya
 */
 
 public class LinearSearch {

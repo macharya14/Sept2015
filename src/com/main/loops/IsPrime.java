@@ -2,6 +2,8 @@ package com.main.loops;
 
 /*
 * Write a program to check if a given number is Prime or Not!
+* 
+* @author: Manjula Acharya
 */
 
 public class IsPrime {

@@ -3,6 +3,8 @@ package com.main.strings;
 /*
 * Write a program which accepts a string like "This is nice" and 
 * converts it to a string like "This1 is2 nice3".
+* 
+* @author: Manjula Acharya
 */
 
 

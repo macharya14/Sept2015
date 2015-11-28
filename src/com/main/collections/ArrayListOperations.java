@@ -11,6 +11,8 @@ import java.util.ListIterator;
 *	--> To search for an element in the list.
 *	--> To print the elements of the list using iterator.
 *	--> To print the elements in the reverse order using ListIterator.
+*
+* @author: Manjula Acharya
 */
 
 public class ArrayListOperations {

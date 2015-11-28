@@ -2,6 +2,8 @@ package com.main.arrays;
 
 /*
  * Write a program to merge 2 arrays.
+ * 
+ * @author: Manjula Acharya
  */
 
 public class Merge {

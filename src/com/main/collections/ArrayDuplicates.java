@@ -5,6 +5,8 @@ import java.util.HashSet;
 
 /*
  * * Write a program to find duplicates in an array using set.
+ * 
+ * @author: Manjula Acharya
  */
 
 public class ArrayDuplicates {

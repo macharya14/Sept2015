@@ -13,6 +13,8 @@ import java.util.regex.Pattern;
 /*
  * Write a program to search for a string in a file and then 
  * replace it with another string.
+ * 
+ * @author: Manjula Acharya
  */
 
 public class SearchAndReplace{

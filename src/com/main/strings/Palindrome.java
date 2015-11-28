@@ -7,6 +7,8 @@ package com.main.strings;
  * examples:
  * "Was it a car or a cat I saw"
  * "A Santa at NASA"
+ * 
+ * @author: Manjula Acharya
  */
 
 public class Palindrome {

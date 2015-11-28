@@ -5,6 +5,8 @@ package com.main.strings;
  * balanced parenthesis or not.
  * For example a string as "(())" is a valid string 
  * where as strings like ")(" or "(()))" are not valid strings.
+ * 
+ * @author: Manjula Acharya
  */
 
 public class BalancedParenthesis {

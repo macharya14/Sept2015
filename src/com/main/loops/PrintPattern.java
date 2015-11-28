@@ -8,7 +8,10 @@ package com.main.loops;
 * 	****
 * 	*****
 * 	******
+* 
+* @author: Manjula Acharya
 */
+
 
 public class PrintPattern {
 	

@@ -3,6 +3,8 @@ package com.main.strings;
 /*
 * Write a program to reverse a string.
 * Do not use StringBuffer/StringBuilder inbuilt reverse function.
+* 
+* @author: Manjula Acharya
 */ 
 
 public class ReverseString {

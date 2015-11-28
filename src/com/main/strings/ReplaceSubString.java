@@ -3,6 +3,8 @@ package com.main.strings;
 /*
 * Write a program to find a substring in a given string and 
 * then replace it with another string.
+* 
+* @author: Manjula Acharya
 */
 public class ReplaceSubString {
 	

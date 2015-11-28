@@ -3,6 +3,8 @@ package com.main.exceptions;
 /*
 * Write a program that is expected to throw a null pointer exception 
 * and it turn handles it using try catch and finally.
+* 
+* @author: Manjula Acharya
 */
 
 

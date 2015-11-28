@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ArraysSuite" duration-ms="77" started-at="2015-11-27T23:22:04Z" finished-at="2015-11-27T23:22:04Z">
+    <groups>
+    </groups>
+    <test name="TestLargest" duration-ms="52" started-at="2015-11-27T23:22:04Z" finished-at="2015-11-27T23:22:04Z">
+      <class name="com.test.arrays.TestLargestNumber">
+        <test-method status="PASS" signature="testPositiveNumbers()[pri:0, instance:com.test.arrays.TestLargestNumber@445b84c0]" name="testPositiveNumbers" duration-ms="17" started-at="2015-11-27T15:22:04Z" finished-at="2015-11-27T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveNumbers -->
+        <test-method status="PASS" signature="testNegativeNumbers()[pri:0, instance:com.test.arrays.TestLargestNumber@445b84c0]" name="testNegativeNumbers" duration-ms="1" started-at="2015-11-27T15:22:04Z" finished-at="2015-11-27T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeNumbers -->
+        <test-method status="PASS" signature="testMixedNumbers()[pri:0, instance:com.test.arrays.TestLargestNumber@445b84c0]" name="testMixedNumbers" duration-ms="1" started-at="2015-11-27T15:22:04Z" finished-at="2015-11-27T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMixedNumbers -->
+        <test-method status="PASS" signature="testDuplicateNumbers()[pri:0, instance:com.test.arrays.TestLargestNumber@445b84c0]" name="testDuplicateNumbers" duration-ms="2" started-at="2015-11-27T15:22:04Z" finished-at="2015-11-27T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuplicateNumbers -->
+        <test-method status="PASS" signature="testWithZeroes()[pri:0, instance:com.test.arrays.TestLargestNumber@445b84c0]" name="testWithZeroes" duration-ms="2" started-at="2015-11-27T15:22:04Z" finished-at="2015-11-27T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithZeroes -->
+      </class> <!-- com.test.arrays.TestLargestNumber -->
+    </test> <!-- TestLargest -->
+    <test name="TestMissing" duration-ms="5" started-at="2015-11-27T23:22:04Z" finished-at="2015-11-27T23:22:04Z">
+      <class name="com.test.arrays.TestMissingNumber">
+        <test-method status="PASS" signature="testPositiveNumbers()[pri:0, instance:com.test.arrays.TestMissingNumber@1888ff2c]" name="testPositiveNumbers" duration-ms="1" started-at="2015-11-27T15:22:04Z" finished-at="2015-11-27T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveNumbers -->
+        <test-method status="PASS" signature="testNegativeNumbers()[pri:0, instance:com.test.arrays.TestMissingNumber@1888ff2c]" name="testNegativeNumbers" duration-ms="1" started-at="2015-11-27T15:22:04Z" finished-at="2015-11-27T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeNumbers -->
+      </class> <!-- com.test.arrays.TestMissingNumber -->
+    </test> <!-- TestMissing -->
+  </suite> <!-- ArraysSuite -->
+</testng-results>
