@@ -12,6 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDateTime;
 
 
 
@@ -20,8 +21,8 @@ public class JDBCOperations {
 	public static Connection conn;
 	
 	public static String connURL = "jdbc:oracle:thin:hr/hr123@hr.cwjgdp1wxdy2.us-west-1.rds.amazonaws.com:1521:orcl";
-	public static String userName = "hr";
-	public static String userPwd = "hr123";
+	public static String userName = "whiteboxqa";
+	public static String userPwd = "Excellence";
 			
 	public static Connection getDBConnection(){
 		
@@ -30,7 +31,6 @@ public class JDBCOperations {
 			try 
 			{
 				conn = DriverManager.getConnection(connURL, userName, userPwd);
-				//conn = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/orcl", "hr", "whiteboxqa");
 				
 			} catch (SQLException e)
 			{
@@ -70,13 +70,15 @@ public class JDBCOperations {
 	//Insert
 		public void insertData() throws SQLException
 		{
-			String sql = "INSERT INTO Employees (employee_id, first_name, last_name, salary) VALUES (?, ?, ?, ?)";
+			String sql = "INSERT INTO Employees (employee_id, first_name, last_name, email, hire_date, job_id) VALUES (?, ?, ?, ?, ?, ?)";
 			 
 			PreparedStatement statement = conn.prepareStatement(sql);
-			statement.setInt(1, 110);
+			statement.setInt(1, 210);
 			statement.setString(2, "John");
 			statement.setString(3, "Smith");
-			statement.setDouble(4, 25000.00);
+			statement.setString(4,  "john.smith@gmail.com");
+			statement.setDate(5, java.sql.Date.valueOf(java.time.LocalDate.now()));
+			statement.setString(6, "HR_REP");
 			 
 			int rowsInserted = statement.executeUpdate();
 			if (rowsInserted > 0) {
@@ -100,8 +102,6 @@ public class JDBCOperations {
 		    System.out.println("An existing employee was updated successfully!");
 		}
 	}
-	
-	
 	
 	
    
